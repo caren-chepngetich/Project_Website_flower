@@ -1,0 +1,391 @@
+body{
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: larger;
+    
+    }
+    .navbar{
+        display: flex;
+        gap: 320px;
+        margin-bottom: 50px;  
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    .arther{
+        margin-top: 80px;
+    }
+    .vases{
+        margin-top: 100px;
+    }
+    
+    .vase_details{
+        display: flex;
+        gap: 400px;
+        margin-left: 150px;
+    }
+    #photo{
+        width: 100px;
+        border-radius: 50px;
+    }
+    
+    #vase{
+        width: 400px;
+        margin-bottom: 50px;
+    }
+    
+    .copyrights{
+        display: flex;
+        gap: 60%;
+    }
+    
+    .authors_profile{
+        display: flex;
+        gap: 500px;
+        margin-left: 150px;
+    }
+    
+    .vasee{
+    display: flex;
+    gap: 500px;
+    margin-left: 150px;
+    }
+    
+    .restyle_details{
+        margin-top: 50px;
+    }
+    
+    #blakvase{
+    width: 300px;
+    }
+    
+    #blakkvase{
+        width: 400px;
+        margin-right: 500px;
+     }
+        
+    .icons{
+    width: 300px;
+    display: flex;
+    gap: 250px;
+    margin-bottom: 50px;
+    }
+    
+    #button{
+        border-radius: 30px;
+        width: 120px;
+        height: 30px;
+        background-color: #474747;
+    }
+    
+    .button{
+        display: flex;
+        gap: 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    
+    }
+    
+    .logos{
+        display: flex;
+        gap: 320px;
+        text-decoration: solid;
+        margin-bottom: 50px;
+       
+    }
+    .buttonn{
+        border-radius: 30px;
+        width: 100px;
+        height: 40px;
+    }
+    
+    .type_vases{
+        width: 300px;
+        display: flex;
+        gap: 250px;
+    }
+    
+    .vase_price{
+        display: flex;
+        gap: 380px;
+    }
+    
+    .offers{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    .offers_details{
+        display: flex;
+        gap: 330px;
+    }
+    
+    .offer_details{
+        display: flex;
+        gap: 300px;
+        margin-bottom: 50px;
+    }
+    
+    
+    .footer{
+        display: flex;
+        gap: 330px;
+        margin-top: 50px;
+    }
+    
+    @media screen and(min-width:280px) and(max-width:653px) {
+        body{
+            margin-right: 0px;
+            margin-left: 0px;
+            font-size: small;
+            
+            }
+        .navbar{
+            flex-direction: column;
+            margin-bottom: 0px;  
+        }
+    
+        .vase_details{
+            flex-direction: column;
+            margin-left: 0px;
+        }
+        #vase{
+            width: 100px;
+            margin-bottom: 50px;
+        }
+        .offers_details{
+            flex-direction: column;
+           
+        }
+        
+        #photo{
+                width: 100px;
+                border-radius: 50px;
+            }
+            
+            #vase{
+                width: 00px;
+                margin-bottom: 50px;
+            }
+            
+        .copyrights{
+               flex-direction: column;
+               
+            }
+            
+            .authors_profile{
+              flex-direction: column;
+               
+                margin-left: 0px;
+            }
+            
+            .vasee{
+            
+            margin-left: 0px;
+            }
+            
+            .restyle_details{
+                margin-top: 0px;
+            }
+            
+            #blakvase{
+            width: 100px;
+            }
+            
+            #blakkvase{
+                width: 100px;
+                margin-right: 0px;
+             }
+                
+            .icons{
+            width: 100px;
+            flex-direction: column;
+            margin-bottom: 50px;
+            }
+            
+            #button{
+                border-radius: 30px;
+                width: 120px;
+                height: 30px;
+                background-color: #474747;
+            }
+            
+            .button{
+                flex-direction: column;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            
+            }
+            
+            .logos{
+               flex-direction: column;
+                text-decoration: solid;
+                margin-bottom: 0px;
+               
+            }
+            .buttonn{
+                border-radius: 30px;
+                width: 100px;
+                height: 40px;
+            }
+            
+            .type_vases{
+                width: 100px;
+               flex-direction: column;
+            }
+            
+            .vase_price{
+               flex-direction: column;
+                
+            }
+            
+            .offers{
+                text-align: center;
+                margin-bottom: 0px;
+            }
+            
+            .offers_details{
+               flex-direction: column;
+            }
+            
+            .offer_details{
+              flex-direction: column;
+              margin-bottom: 0px;
+            }
+            
+            
+            .footer{
+             flex-direction: column;
+             margin-top: 0px;
+            }
+            
+    }
+    
+    @media screen and(min-width:654px) and(max-width:1000px) {
+        body{
+            margin-right: 0px;
+            margin-left: 0px;
+            font-size: small;
+            
+            }
+        .navbar{
+            flex-direction: column;
+            margin-bottom: 0px;  
+        }
+    
+        .vase_details{
+            flex-direction: column;
+            margin-left: 0px;
+        }
+        #vase{
+            width: 100px;
+            margin-bottom: 50px;
+        }
+        .offers_details{
+            flex-direction: column;
+           
+        }
+        
+        #photo{
+                width: 100px;
+                border-radius: 50px;
+            }
+            
+            #vase{
+                width: 00px;
+                margin-bottom: 50px;
+            }
+            
+        .copyrights{
+               flex-direction: column;
+               
+            }
+            
+            .authors_profile{
+              flex-direction: column;
+               
+                margin-left: 0px;
+            }
+            
+            .vasee{
+            
+            margin-left: 0px;
+            }
+            
+            .restyle_details{
+                margin-top: 0px;
+            }
+            
+            #blakvase{
+            width: 100px;
+            }
+            
+            #blakkvase{
+                width: 100px;
+                margin-right: 0px;
+             }
+                
+            .icons{
+            width: 100px;
+            flex-direction: column;
+            margin-bottom: 50px;
+            }
+            
+            #button{
+                border-radius: 30px;
+                width: 120px;
+                height: 30px;
+                background-color: #474747;
+            }
+            
+            .button{
+                flex-direction: column;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            
+            }
+            
+            .logos{
+               flex-direction: column;
+                text-decoration: solid;
+                margin-bottom: 0px;
+               
+            }
+            .buttonn{
+                border-radius: 30px;
+                width: 100px;
+                height: 40px;
+            }
+            
+            .type_vases{
+                width: 100px;
+               flex-direction: column;
+            }
+            
+            .vase_price{
+               flex-direction: column;
+                
+            }
+            
+            .offers{
+                text-align: center;
+                margin-bottom: 0px;
+            }
+            
+            .offers_details{
+               flex-direction: column;
+            }
+            
+            .offer_details{
+              flex-direction: column;
+              margin-bottom: 0px;
+            }
+            
+            
+            .footer{
+             flex-direction: column;
+             margin-top: 0px;
+            }
+            
+    }
